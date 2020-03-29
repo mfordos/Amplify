@@ -16,4 +16,12 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    private fun logon() {
+        var providers =_arrayListOf(
+            AuthUI.IdpConfig.EmailBuilder().build
+        )
+        startActivityForResult(
+            AuthUI.getInstance().createSignInIntentBuilder().setAvailableProviders(providers).build()
+        )
+    }
 }
