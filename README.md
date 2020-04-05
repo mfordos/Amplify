@@ -11,7 +11,7 @@ In order to get things up and running with this repository: <br />
 4. Choose correct file name path to your unzipped App Remote SDK <br />
 5. Set the subproject name to spotify-app-remote <br />
  <br /> <br />
-For additional information please see [Spotify's documentation](https://developer.spotify.com/documentation/android/quick-start/#next-steps)
+For additional information please see [Spotify's documentation](https://developer.spotify.com/documentation/android/quick-start/#create-your-app)
  <br /> <br /> <br /> 
  
  ## App Preview
