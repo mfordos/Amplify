@@ -7,6 +7,7 @@ buildscript {
         jcenter()
         
     }
+    // Dependencies
     dependencies {
         classpath 'com.android.tools.build:gradle:3.6.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
@@ -22,7 +23,7 @@ allprojects {
         jcenter()
     }
 }
-
+// Cleaning build directory
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

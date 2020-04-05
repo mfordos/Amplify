@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
                     // Now you can start interacting with App Remote
                     connected()
                 }
-
+                // This function will throw an error message on failure.
                 fun onFailure(throwable: Throwable) {
                     Log.e("MainActivity", throwable.message, throwable)
                     // Something went wrong when attempting to connect! Handle errors here

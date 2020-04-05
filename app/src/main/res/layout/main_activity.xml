@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
-
+    // May be Better to put hint for which scrren & location is being occupied
     <TextView
         android:id="@+id/lblSessionID"
         android:layout_width="wrap_content"

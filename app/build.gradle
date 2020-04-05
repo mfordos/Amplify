@@ -24,7 +24,7 @@ android {
         }
     }
 }
-
+// Brief on what these dependencies relate to
 dependencies {
     implementation project(':spotify-app-remote')
     implementation "com.google.code.gson:gson:2.6.1"
