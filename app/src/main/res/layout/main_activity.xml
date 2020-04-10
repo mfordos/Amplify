@@ -8,7 +8,6 @@
     android:background="@color/colorPrimaryDark"
     tools:context=".MainActivity">
 
-    // May be Better to put hint for which scrren & location is being occupied
     <TextView
         android:id="@+id/lblSessionID"
         android:layout_width="wrap_content"
@@ -45,6 +44,8 @@
         android:layout_height="611dp"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="119dp"></LinearLayout>
+        tools:layout_editor_absoluteY="119dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
