@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             .setRedirectUri(AppConstants.APP_REDIRECT_URI)
             .showAuthView(true)
             .build()
-
+        SpotifyAppRemote.disconnect(mSpotifyAppRemote)
         SpotifyAppRemote.connect(this, connectionParams,
             object : Connector.ConnectionListener {
                 override fun onConnected(spotifyAppRemote: SpotifyAppRemote) {
@@ -51,7 +51,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onStop() {
         super.onStop()
-        SpotifyAppRemote.disconnect(mSpotifyAppRemote);
+        SpotifyAppRemote.disconnect(mSpotifyAppRemote)
     }
 
     private fun connected() {
